@@ -1,0 +1,356 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Open Sans !important;
+}
+
+.logo{
+    width: 60%;
+    margin-left: 4.4rem !important;
+}
+.nav-item {
+    border: 1px solid transparent;
+    font-size: 10px !important;
+    transition: border 0.3s ease;
+    font-weight: bold;
+}
+
+.nav-item:hover {
+    border: 1px dashed rgb(214, 89, 123);
+}
+
+.nav-link-1{
+    border: none !important;
+    font-size: 10px !important;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.nav-link-1:hover{
+    color: rgb(214, 89, 123);
+}
+
+/* first flex start  */
+.first-p{
+    color: rgb(214, 89, 123);
+    font-family: open sans;
+    font-size: 46px;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+.second-p{
+    color: rgb(147, 154, 155);
+    font-family: open sans;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+.first-btn{
+    background-color: rgb(223, 81, 119);
+    font-size: 9px;
+    color: white;
+    font-weight: 800;
+    border: none;
+    padding: 1.2rem 4rem;
+    border-radius: 4px;
+}
+.girl-img{
+    width: 100%;
+}
+.padding-row{
+    padding: 3rem;
+    padding-left: 0;
+}
+
+.main{
+    background-image: url(./images/whos_background_md.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 60vh;
+    background-position: top;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15rem;
+    /* flex-wrap: wrap; */
+}
+.who-needs{
+    margin-top: -6.5rem !important;
+
+}
+
+/* first flex end  */
+
+/* girl section start */
+
+.back-row{
+    width: 100% !important;
+    /* background: rgb(224, 85, 126); */
+    min-height: 60vh;
+}
+.circle{
+    border: 1px solid rgb(255, 255, 255);
+    /* border-radius: 50%; */
+    width: 30px !important;
+    height: 30px !important;
+    display: inline-block;
+    text-align: center;   
+    padding-top: 3px;
+}
+
+.inner-div p{
+    font-size: 18px;
+}
+
+.flex-col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap !important;
+}
+
+/* girl section end */
+
+
+/* Design a complete fashion collection in minutes start. */
+
+
+.design-p0{
+    font-weight: 100 !important;
+    font-size: 32px;
+    color: rgb(214, 89, 123);
+    font-family: Open Sans;
+}
+.design-p1{
+    font-family: Open Sans;
+    font-size: 20px;
+    margin: 3rem 0rem 4rem 0rem;
+    color: rgb(78, 94, 97);
+}
+.design-p2{
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: italic;
+    color: rgb(78, 94, 97);
+}
+
+
+/* Design a complete fashion collection in minutes end. */
+
+/* 210K pattern users 40+B Design possibilities START  */
+.flex-ROW{
+    display: flex;
+    justify-content: center !important;
+    text-align: center;
+}
+
+
+/* 210K pattern users 40+B Design possibilities END  */
+
+/* boder content start  */
+
+.cicle-border{
+    border: 2px dashed rgb(160, 176, 179);
+    border-radius: 50%;
+    /* width: 30vw; */
+    height: 30vh;
+}
+
+.dashed-boder{
+    border-bottom: 2px dashed rgb(160, 176, 179);
+}
+
+/* boder content end  */
+
+/* SEAMLESS AUTOMATION OF ON-DEMAND MANUFACTURING start  */
+
+.cardimg{
+    width: 50% !important;
+}
+.img-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+.same-color-p{
+    color: rgb(114, 147, 150);
+}
+.same-color-p0{
+    color: rgb(78, 94, 97);
+    font-weight: 600;
+}
+
+.main-card{
+    border: none !important;
+}
+
+.second-btn{
+    background-color: rgb(223, 81, 119);
+    font-size: 9px;
+    color: white;
+    font-weight: 800;
+    border: none;
+    padding: 1.2rem 4rem;
+    border-radius: 4px;
+}
+
+/* SEAMLESS AUTOMATION OF ON-DEMAND MANUFACTURING end  */
+
+
+/* <!-- Join The Conversation & Get Exclusive Updates. start --> */
+
+.container-color{
+    background-color: rgb(224, 85, 126);
+}
+
+input{
+    width: 100%;
+    padding: 0.7rem 0rem 0.7rem 0.4rem;
+    border-radius: 6px;
+    border: 1px solid gray;
+}
+
+input::placeholder{
+    font-size: 14px;
+}
+
+.input-btn{
+    width: 100%;
+    padding: 0.7rem 0rem 0.7rem 0rem;
+}
+
+/* <!-- Join The Conversation & Get Exclusive Updates. end --> */
+
+/* footer css start  */
+.last-row{
+    display: flex !important;
+    justify-content: center !important;
+    justify-content: space-around !important;
+}
+.footer-img{
+    width: 50%;
+}
+
+.anchors p a{
+    color: rgb(89, 104, 107) !important;
+    text-decoration: none !important;
+    transition-duration: 1s;
+}
+.tech-anchor{
+    text-decoration: none;
+    color: rgb(89, 104, 107) !important;
+}
+.tech-anchor:hover{
+    text-decoration: underline !important;
+}
+
+.anchors p a:hover{
+    text-decoration: underline !important;
+}
+
+.position{
+    width: 70px;
+    background-color: aliceblue;
+    height: 70px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 4px;
+}
+
+/* footer css end  */
+
+
+@media (max-width: 576px) {
+    .first-contaienr {
+      display: block !important;
+    }
+
+    .logo{
+        width: 40%;
+        /* margin-right: 2rem !important; */
+        /* padding-right: 2rem; */
+        margin-left: -1rem !important;
+    }
+    .nav-togler{
+        margin-left: 5rem;
+    }
+    .first-p{
+        font-size: 30px;
+        line-height: 1.5;
+        margin-bottom: 0rem;
+    }
+    .second-p{
+        color: rgb(147, 154, 155);
+        font-family: open sans;
+        font-size: 20px;
+        line-height: 1.5;
+        margin-bottom: 1rem;
+    }
+    .first-btn{
+        font-size: 12px;
+        padding: 1rem;
+        border-radius: 4px;
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .padding-row{
+        padding: 0;
+    }
+    .main{
+        min-height: 40vh;
+        gap: 2rem;
+        flex-wrap: wrap;
+        justify-content: left;
+        padding: 2rem 0rem 0rem 2rem !important;
+    }
+    .circle{
+        width: 26px !important;
+        height: 26px !important;
+        margin-right: 0.5rem;
+        padding: 0px;
+    }
+
+    .design-p0{
+        font-size: 24px;
+        width: 100% !important;
+    }
+    .design-p1{
+        font-family: Open Sans;
+        font-size: 20px;
+        margin: 3rem 0rem 4rem 0rem;
+        color: rgb(78, 94, 97);
+    }
+    .design-p2{
+        font-family: Open Sans;
+        font-size: 14px;
+        font-style: italic;
+        color: rgb(78, 94, 97);
+    }
+    
+    
+  }
+  
+
+  
+@media (max-width: 1190px) {
+    .main{
+        min-height: 40vh;
+        gap: 2rem;
+        flex-wrap: wrap;
+        justify-content: left;
+        padding: 2rem 0rem 0rem 2rem !important;
+    }
+}
+
+@media (max-width:1440px){
+    .who-needs{
+        display: none !important; 
+    }
+    
+}

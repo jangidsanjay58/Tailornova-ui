@@ -19,3 +19,6 @@ Crafted with love, code, and caffeine. ☕🧵
 - 💻 HTML5
 - 🎨 CSS3
 - 🅱️ Bootstrap 5
+
+# Tailornova-ui
+A clone of Tailornova built using HTML, CSS &amp; Bootstrap.
